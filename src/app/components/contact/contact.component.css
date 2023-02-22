@@ -1,0 +1,16 @@
+.container{
+
+  width:70%;
+ 
+  margin-top: 25px;
+
+}
+h1{
+  text-align: center;
+    padding:10px;
+    text-align:center;
+    color:var(--secondary-color);
+}
+.boxes{
+  font-family:cursive;
+}

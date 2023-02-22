@@ -1,0 +1,16 @@
+.container{
+    background-color:  azure;
+    width:70%;
+    margin-top: 25px;
+}
+
+h1{
+    text-align: center;
+    padding:10px;
+    text-align:center;
+    color:var(--secondary-color);
+
+}
+.box1{
+    font-family:cursive;
+}
