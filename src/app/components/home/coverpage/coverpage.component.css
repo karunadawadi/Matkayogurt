@@ -94,7 +94,7 @@
     }
     .title1{
         padding:10px;
-        font-size:xx-large;
+        font-size:x-large;
     }
     .option2{
         font-size: large;
@@ -123,7 +123,7 @@
     }
     .title1{
         padding:10px;
-        font-size:40px;
+        font-size:xx-large;
     }
     .option2{
         font-size: large;
@@ -148,14 +148,13 @@
     }
     .title1{
         padding:5px;
-        font-size:60px;
+        font-size:45px;
+        margin-top:15px;
     }
     .option2{
-        font-size: larger;
-        color:rgb(230, 6, 6);
+        font-size: xx-large;
       
         font-family: Arial, Helvetica, sans-serif Arial, Helvetica, sans-serif;
-        font-size:35px;
     }
     .box2{
         width:45%;
@@ -178,17 +177,14 @@
     .title1{
         padding:5px;
         font-size:60px;
-        font-family:sans-serif;
     }
     .option2{
         font-size: larger;
-        color:red;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
         font-size:35px;
     }
     .box2{
-        width:32%;
-        height:70%;
+        width:30%;
+        height:53%;
     }
     .box3{
         right:25%;

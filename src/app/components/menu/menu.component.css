@@ -3,7 +3,6 @@
     width:100%;
     position: relative;
     margin-top: 25px;
-
   }
 .list{display:flex;
     justify-content:center;
@@ -27,17 +26,23 @@
     margin:10px;
     width:30%;
   }
-  .box4{
-    margin:10px;
-    width:30%;
-  }
+  .box4 a{
+    background-color:green;
+    color:white;
+    padding:15px 20px;
+    border-radius: 5px;
+}
+.box4 a:hover{
+    background-color: var(--secondary-color);
+    color:white;
+}
 
 .container2{
     background-color:azure;
-    width:80%;
+    width:76%;
     text-align:center;
     position: relative;
-    left:13%;
+    left:12%;
 }
 .box1-container1{
     width:50%;
