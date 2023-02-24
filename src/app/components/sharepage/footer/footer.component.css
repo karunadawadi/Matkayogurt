@@ -2,7 +2,7 @@
     overflow:hidden;
     position:sticky;
     top:100%;
-    background-color: black;
+    background-color: var(--secondary-color);
     padding:20px 10px;
     margin-top:30px;
 }
@@ -12,12 +12,11 @@ h1{
     font-weight: bold;
 }
 P{
-    
     color:white;
     font-size: 14px;
 }
 a{
-    color:white;
+    color:#FEA501;
     text-decoration: none;
     padding: 0px 5px;
     font-size:18px;
@@ -26,5 +25,5 @@ i{
     padding:0px 10px;
 }
 a:hover{
-    color:var(--primary-color);
+    color:white;
 }

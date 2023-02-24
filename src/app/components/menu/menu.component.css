@@ -38,7 +38,6 @@
 }
 
 .container2{
-    background-color:azure;
     width:76%;
     text-align:center;
     position: relative;
@@ -49,7 +48,8 @@
     margin:5px;
     padding:10px;
     text-align: center;
-    background-color: azure;
+    background-color: #FEA501;
+    color:white;
 }
 
 .box4{
