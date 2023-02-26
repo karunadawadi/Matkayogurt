@@ -1,9 +1,9 @@
 .navbar-light .navbar-nav .nav-link.active-link{
-    color:white;
+    color:#FEA501;
     font-size: x-large;
 }
 
 .navbar-light .navbar-nav .nav-link{
-    color:#FEA501;
+    color:var(--secondary-color);
     font-size:larger;
 }
