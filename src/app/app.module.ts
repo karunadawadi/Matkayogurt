@@ -1,10 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
 import { AboutComponent } from './components/about/about.component';
 import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
@@ -14,7 +11,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { VideoComponent } from './components/home/video/video.component';
 import { CoverpageComponent } from './components/home/coverpage/coverpage.component';
 import { FormComponent } from './components/form/form.component';
-
+import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 
 @NgModule({
   imports:[
@@ -31,12 +28,13 @@ import { FormComponent } from './components/form/form.component';
     MenuComponent,
     VideoComponent,
     CoverpageComponent,
-    FormComponent,
-    
-   
-   
+    FormComponent
   ],
   providers: [],
+  providers: [{
+    provide: LocationStrategy, 
+    useClass: PathLocationStrategy
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
