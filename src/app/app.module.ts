@@ -30,7 +30,6 @@ import { LocationStrategy, PathLocationStrategy } from '@angular/common';
     CoverpageComponent,
     FormComponent
   ],
-  providers: [],
   providers: [{
     provide: LocationStrategy, 
     useClass: PathLocationStrategy
